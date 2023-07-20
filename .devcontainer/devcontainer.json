@@ -9,7 +9,7 @@
           "documentationUrl": "https://github.com/twilio/twilio-conversations-demo-react#set-the-token-service-url"
         }
 	},
-	"initializeCommand": "yarn",
+	"onCreateCommand": "yarn",
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "yarn start",
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
