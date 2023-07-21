@@ -12,7 +12,7 @@
 	// Use 'onCreateCommand' to run commands after the container is created. Cached in prebuilds.
 	"onCreateCommand": "yarn",
 	// Use 'postCreateCommand' to run commands after the container is created. No caching.
-	"postCreateCommand": "yarn start",
+	"postCreateCommand": "sudo cp .devcontainer/first-run-notice.txt /workspaces/.codespaces/shared/first-run-notice.txt && yarn start",
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	"forwardPorts": [3000],
 	// Use 'hostRequirements' to set minimum machine specs
